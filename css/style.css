@@ -1,0 +1,66 @@
+html{
+   scroll-behavior: smooth;
+ }
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+ nav a{
+   color: black;
+   font-weight: bold;
+   text-decoration: none; 
+ }
+ img{
+   width:100% ;
+   padding: 20px;
+   border: solid grey 3px;
+
+ }
+ p{
+   font-family: 'Courier New', Courier, monospace;
+   background-color: aqua;
+   color: black;
+
+ } 
+ /* add an underline when
+links in the navigation are in the hover state. */
+ nav a:hover{
+   text-decoration: underline;
+   background-color: rgb(43, 177, 226);
+ 
+ 
+ }
+/* add an underline when
+links in the navigation are in the focus state. */
+ nav a:focus{
+   text-decoration: underline;
+ }
+ 
+   
+ 
+ 
+ /* show on which page you are mean showing active page status */
+ .active{
+	
+   text-transform: uppercase;
+	/* text-align: center; */
+   background: yellow;
+ }
+
+/* .active a{
+	text-decoration: none;;
+}
+  */
+ footer{
+   background-color: black;
+   color: white;
+   padding-top: 30px;
+   text-align: center;
+ }
